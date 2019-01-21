@@ -19,7 +19,7 @@ import {
   invalidTokenLinkWithTokenHandlerComponent
 } from "./core/auth";
 
-const API_URL = urljoin(process.env.BACKEND_URL || "", "/graphql/");
+const API_URL = urljoin(process.env.BACKEND_URL || "https://meinsaleortest.herokuapp.com/", "/graphql/");
 
 const {
   component: UserProviderWithTokenHandler,
